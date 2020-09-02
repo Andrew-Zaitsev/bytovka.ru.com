@@ -1,0 +1,19 @@
+.logo {
+  display: flex;
+  align-items: center;
+
+  &__image {
+    width: 2.5rem; //1.625rem; //надо 26х26
+    height: 2.5rem; //1.625rem;
+    background: url(../../modules/logo/images/logo.svg) no-repeat;
+    //border: 1px solid yellow;
+  }
+
+  &__text {
+    margin-left: 1rem;
+    font-size: 1rem; //1.625rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $white;
+  }
+}

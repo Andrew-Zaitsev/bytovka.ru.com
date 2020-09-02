@@ -1,0 +1,30 @@
+{
+  "name": "bytovka.ru",
+  "version": "1.0.0",
+  "description": "landing page for bytovka.ru, template https://demo.athemes.com/intro/",
+  "main": "bytovka.ru.pug",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "by": "parcel src/pages/landing-page/landing-page.pug -p 4000 --open --out-dir dist/bytovka.ru --cache-dir dist/cache",
+    "clean": "rm -rf dist/bytovka.ru/*",
+    "cleanby": "npm run clean && npm run by"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew-Zaitsev/bytovka.ru.com.git"
+  },
+  "keywords": [
+    "bytovka.ru.com"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrew-Zaitsev/bytovka.ru.com/issues"
+  },
+  "homepage": "https://github.com/Andrew-Zaitsev/bytovka.ru.com#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "pug": "^3.0.0",
+    "sass": "^1.26.10"
+  }
+}

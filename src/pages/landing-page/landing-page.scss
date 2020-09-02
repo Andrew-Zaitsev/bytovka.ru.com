@@ -1,0 +1,12 @@
+@import '../../assets/scss/main.scss';
+
+.landing-page {
+  width: 100%;
+  height: 1000px;
+  background: url(./images/background-image.jpg) no-repeat;
+  background-size: 100% auto;
+  //border: 2px solid orange;
+}
+
+@import '../../modules/header/header.scss';
+@import '../../modules/logo/logo.scss';

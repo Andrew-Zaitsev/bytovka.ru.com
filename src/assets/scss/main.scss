@@ -1,0 +1,8 @@
+@import 'utils/vars.scss';
+@import 'utils/fonts.scss';
+@import 'utils/reset.scss';
+
+body {
+  font-family: $font;
+  font-size: $fontSize;
+}
