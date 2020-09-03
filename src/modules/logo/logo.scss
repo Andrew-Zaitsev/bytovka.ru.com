@@ -1,12 +1,13 @@
 .logo {
   display: flex;
   align-items: center;
+  border: 1px solid yellow;
+
 
   &__image {
     width: 2.5rem; //1.625rem; //надо 26х26
     height: 2.5rem; //1.625rem;
     background: url(../../modules/logo/images/logo.svg) no-repeat;
-    //border: 1px solid yellow;
   }
 
   &__text {

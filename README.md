@@ -5,6 +5,6 @@ To install project run command:
 
 $ clone https://github.com/Andrew-Zaitsev/bytovka.ru.com.git
 
-To run development mode and start server for bytovka.ru page run command:
+To run development mode and start server for bytovka.ru site run command:
 
 $ npm run by
