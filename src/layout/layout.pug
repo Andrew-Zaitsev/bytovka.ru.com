@@ -1,3 +1,5 @@
+include ../modules/header/header.pug
+
 doctype html
 html(lang="en")
   head
@@ -9,4 +11,5 @@ html(lang="en")
     block scripts
 
   body
+    +header()
     block content

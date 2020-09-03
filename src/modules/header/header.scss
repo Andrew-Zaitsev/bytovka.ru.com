@@ -1,19 +1,10 @@
 .header {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   background-color: rgba($black, $aFirst);
+  padding: 0.425rem 0 1.0125rem 2.5rem;
   //height: 63px;
-  padding: 0.625rem 2.5rem 0.8125rem; //1.6875rem;
-
-  &__logo {
-    //width: 100px;
-    //height: 100px;
-  }
-
-  &__sidebar {
-    color: $white;
-  }
 }
-
-@import '../logo/logo.scss';

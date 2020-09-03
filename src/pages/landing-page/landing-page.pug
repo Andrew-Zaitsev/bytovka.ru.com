@@ -1,4 +1,5 @@
 extends ../../layout/layout
+include ../../modules/sidebar/sidebar.pug
 
 block meta
   meta(name="keywords" value="бытовка, купить, во Владимире, в Москве, недорого")
@@ -12,5 +13,4 @@ block links
 
 block content
   .landing-page
-    include ../../modules/header/header.pug
-    +header()
+    +sidebar()

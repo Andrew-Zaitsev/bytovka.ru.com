@@ -15,3 +15,65 @@
   src: url('../../assets/fonts/raleway-regular/raleway-regular.svg') format('svg');
   src: url('../../assets/fonts/raleway-regular/raleway-regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../../assets/fonts/material-icons-regular/material-icons-regular.woff') format('woff');
+  src: url('../../assets/fonts/material-icons-regular/material-icons-regular.svg') format('svg');
+  src: url('../../assets/fonts/material-icons-regular/material-icons-regular.ttf') format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+
+  // properties added by me
+  vertical-align: middle;
+}
+
+.md-10 {
+  font-size: 0.625rem;
+}
+
+.md-40 {
+  font-size: 2.5rem;
+}
+
+.md-48 {
+  font-size: 3rem;
+}
+
+.md-gradient-color {
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%); //color: orange;
+  -webkit-background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  -moz-background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+//  including the icon into html <i class="material-icons">face</i>
