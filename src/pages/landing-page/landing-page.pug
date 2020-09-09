@@ -1,4 +1,9 @@
 extends ../../layout/layout
+include ../../modules/parallax/parallax.pug
+include ../../modules/intro/intro.pug
+include ../../modules/about/about.pug
+include ../../modules/section/section.pug
+
 include ../../modules/sidebar/sidebar.pug
 
 block meta
@@ -12,5 +17,69 @@ block links
   link(href="./landing-page.scss" rel="stylesheet")
 
 block content
+
   .landing-page
+    
+    +parallax()
+    +intro()
+    +about({
+      title: "about us",
+      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    })
+    +section({
+      color: "lightgrey",
+      title: "услуги",
+      section: "services",
+      columnsNum: "3",
+      cards: [
+        {
+          cardTitle: "Продажа",
+          cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo.",
+          cardIcon: "local_mall",
+        },
+        {
+          cardTitle: "Доставка", 
+          cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo.",
+          cardIcon: "local_shipping"},
+        {
+          cardTitle: "Сборка на участке", 
+          cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo.",
+          cardIcon: "build",
+        },
+        { cardTitle: "Сборка на участке", 
+          cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo.",
+          cardIcon: "monetization_on",
+        },
+      ]
+    })
+
+    +section({
+      color: "white",
+      title: "факты",
+      section: "facts",
+      columnsNum: "4",
+      cards: [
+        {cardTitle: "установлено", cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo."},
+        {cardTitle: "довольных хозяев", cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo."},
+        {cardTitle: "Doing nothing", cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo."},
+        {cardTitle: "Watching", cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo."},
+        {cardTitle: "Taking a rest", cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo."},
+        {cardTitle: "Doing nothing", cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo."},
+      ]
+    })
+
+    +section({
+      color: "white",
+      title: "наши работы",
+      section: "our work",
+      columnsNum: "3",
+      cards: [
+        {cardTitle: "Watching", cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo."},
+        {cardTitle: "Taking a rest", cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo."},
+        {cardTitle: "Doing nothing", cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo."},
+        {cardTitle: "Watching", cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo."},
+        {cardTitle: "Taking a rest", cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo."},
+        {cardTitle: "Doing nothing", cardText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna nisl, iaculis eget magna non, semper lobortis tellus. Integer arcu neque, tristique et lobortis eu, ullamcorper a leo."},
+      ]
+    })
     +sidebar()

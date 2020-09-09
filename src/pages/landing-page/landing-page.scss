@@ -2,14 +2,25 @@
 
 .landing-page {
   width: 100%;
-  height: 1000px;
-  background: url(./images/background-image.jpg) no-repeat;
-  background-size: 100% auto;
+  //height: 1000px;
+  //background: url(./images/background-image.jpg) no-repeat;
+  //background-size: cover; //100% auto;
+  //background-position-x: center;
   //border: 2px solid orange;
 }
 
 @import '../../layout/layout.scss';
+@import '../../modules/parallax/parallax.scss';
+@import '../../modules/intro/intro.scss';
+@import '../../modules/about/about.scss';
+@import '../../modules/section/section.scss';
+@import '../../modules/card-services/card-services.scss';
+@import '../../modules/card-facts/card-facts.scss';
+@import '../..//modules/card-our-work/card-our-work.scss';
 @import '../../modules/sidebar/sidebar.scss';
+
+
+
 /*
 @import '../../modules/header/header.scss';
 @import '../../modules/logo/logo.scss';

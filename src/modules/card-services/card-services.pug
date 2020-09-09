@@ -1,0 +1,19 @@
+mixin card-services(options, i)
+
+  - 
+    let imageName = i + 1;
+    let source = `../../modules/card-services/images/${imageName}.jpg`;
+
+  .card-services
+    .card-services__image
+      i.material-icons.md-48= options.cardIcon
+    .card-services__info  
+      h3.card-services__title= options.cardTitle
+      p.card-services__text= options.cardText
+
+
+//-производство build
+//-продажа  add_shopping_cart     card_travel
+//-доставка commute  local+shipping
+//-сборка на участке handyman    construction
+//-кредит  monetization_on

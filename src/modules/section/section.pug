@@ -1,0 +1,28 @@
+include ../card-services/card-services.pug
+include ../card-facts/card-facts.pug
+include ../card-our-work/card-our-work.pug
+
+mixin section(options)
+
+  -
+    let sectionClass = "section";
+    let sectionCardsClass = "section__cards";
+
+    sectionClass += ` ${sectionClass}_color_${options.color}`;
+    sectionCardsClass += ` ${sectionCardsClass}_col-in-row_${options.columnsNum}`;
+
+  div(class = sectionClass)
+    .section__content
+      h2.section__title= options.title
+      div(class = sectionCardsClass)
+
+        - for (let i = 0; i < options.cards.length; i++)
+          .section__card
+
+            case true
+              when options.section == "services"
+                +card-services(options.cards[i], i)
+              when options.section == "our work"
+                +card-our-work(options.cards[i], i)
+              when options.section == "facts"
+                +card-our-work(options.cards[i], i)
