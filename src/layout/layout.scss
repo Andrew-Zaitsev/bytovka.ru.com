@@ -1,2 +1,6 @@
 @import '../../modules/header/header.scss';
 @import '../../modules/logo/logo.scss';
+
+body {
+  min-width: 320px;
+}
