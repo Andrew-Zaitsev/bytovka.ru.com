@@ -1,0 +1,19 @@
+.socials {
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    width: 30px;
+    margin: 0 5px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @media (max-width: 10px) {}
+  }
+}

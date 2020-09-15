@@ -1,0 +1,5 @@
+mixin socials(options)
+  .socials
+    each item in options
+      a.socials__item(href = item.href)
+        img.socials__item-image(src = item.src)

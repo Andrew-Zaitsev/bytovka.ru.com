@@ -1,0 +1,14 @@
+include ../socials/socials.pug
+
+mixin footer(options)
+  .footer
+    .footer__copy 
+      span.footer__copy-name © Андрей Зайцев, 2020
+      span.footer__copy-mail andrew_lin@mail.ru
+    +socials({
+      facebook: {href: "", src: "../../modules/socials/images/facebook.svg"},
+      twitter: {href: "", src: "../../modules/socials/images/twitter.svg"},
+      instagram: {href: "", src: "../../modules/socials/images/instagram.svg"}
+    })
+    a.footer__arrow-up(href="top") 
+      i.material-icons.md-40 keyboard_arrow_up

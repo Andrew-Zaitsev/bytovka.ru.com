@@ -1,5 +1,7 @@
 include ../logo/logo.pug
+include ../contacts/contacts.pug
 
 mixin header(options)
   .header
     +logo({text: "бытовка.ру"})
+    +contacts({phone: "+7 904 258 15 00", mail: "irina_soldatova_84@mail.ru"})

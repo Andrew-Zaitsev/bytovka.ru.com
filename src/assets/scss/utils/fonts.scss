@@ -17,6 +17,24 @@
 }
 
 @font-face {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../../assets/fonts/montserrat-regular/montserrat-regular.woff') format('woff');
+  src: url('../../assets/fonts/montserrat-regular/montserrat-regular.svg') format('svg');
+  src: url('../../assets/fonts/montserrat-regular/montserrat-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PTSans';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../../assets/fonts/ptsans-regular/ptsans-regular.woff') format('woff');
+  src: url('../../assets/fonts/ptsans-regular/ptsans-regular.svg') format('svg');
+  src: url('../../assets/fonts/ptsans-regular/ptsans-regular.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
@@ -56,6 +74,18 @@
 
 .md-10 {
   font-size: 0.625rem;
+}
+
+.md-12 {
+  font-size: 12px;
+}
+
+.md-14 {
+  font-size: 14px;
+}
+
+.md-26 {
+  font-size: 26px;
 }
 
 .md-40 {

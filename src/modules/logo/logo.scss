@@ -16,5 +16,9 @@
     font-weight: bold;
     text-transform: uppercase;
     color: $white;
+
+    @media (max-width: 440px) {
+      display: none;
+    }
   }
 }

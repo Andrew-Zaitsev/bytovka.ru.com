@@ -1,0 +1,47 @@
+.contacts {
+  //display: flex;
+
+  &__phone-wrap {
+    display: flex;
+    padding-bottom: 3px;
+  }
+
+  &__phone-image {
+    color: $white;
+
+    @media (max-width: 540px) {
+      display: none;
+    }
+  }
+
+  &__phone-number {
+    width: 100%;
+    //text-align: center;
+    padding-left: 16px;
+    color: $grey;
+
+    @media (max-width: 540px) {
+      text-align: center;
+    }
+  }
+
+  &__mail-wrap {
+    display: flex;
+  }
+
+  &__mail-image {
+    display: flex;
+    align-items: center;
+    color: $white;
+
+    @media (max-width: 540px) {
+      display: none;
+    }
+  }
+
+  &__mail-text {
+    padding-left: 16px;
+    font-size: 0.8rem;
+    color: $grey;
+  }
+}
