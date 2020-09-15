@@ -39,17 +39,17 @@
       border-color: $yellow;
     }
 
-    @media (max-width: 420px) {
+    @media (max-width: 440px) {
       position: fixed;
       z-index: 3;
-      left: auto;
+      left: calc(50% - 20px);
       bottom: 100px;
       border-color: $grey;
       color: $grey;
     }
 
     @media (max-width: 380px) {
-      bottom: 135px;
+      bottom: 140px;
     }
   }
 

@@ -4,7 +4,7 @@
 
   &__item {
     width: 30px;
-    margin: 0 5px;
+    margin: 0 7px;
 
     &:first-child {
       margin-left: 0;
@@ -13,7 +13,5 @@
     &:last-child {
       margin-right: 0;
     }
-
-    @media (max-width: 10px) {}
   }
 }
