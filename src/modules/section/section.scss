@@ -1,9 +1,7 @@
 .section {
   width: 100%; //58.5625rem;
-  //background-color: $white;
   padding-top: 40px;
-  padding-bottom: 2.5rem;
-  //margin: 0 auto;
+  padding-bottom: 40px; //2.5rem;
 
   &_color_white {
     background-color: $white;
