@@ -5,7 +5,5 @@ mixin card-our-work(options, i)
     let source = `../../modules/card-our-work/images/${imageName}.jpg`;
 
   .card-our-work
-    .card-our-work__image-wrap
-      img.card-our-work__image(src = source)
+    img.card-our-work__image(src = source)
     h3.card-our-work__title= options.cardTitle
-    p.card-our-work__text= options.cardText

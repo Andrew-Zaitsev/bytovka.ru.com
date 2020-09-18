@@ -1,5 +1,10 @@
 .card-services {
   width: 100%;
+  cursor: pointer;
+
+  &:hover .card-services__image {
+    background-color: rgba($black, $aFirst);
+  }
 
   &__image {
     height: 10rem;
@@ -7,6 +12,7 @@
     line-height: 10rem;
     background-color: $yellow;
     color: $white;
+    transition: background-color 0.2s linear;
   }
 
   &__info {
