@@ -22,7 +22,7 @@ mixin section(options)
             case true
               when options.section == "services"
                 +card-services(options.cards[i], i)
-              when options.section == "our work"
-                +card-our-work(options.cards[i], i)
               when options.section == "facts"
+                +card-facts(options.cards[i], i)
+              when options.section == "our work"
                 +card-our-work(options.cards[i], i)
