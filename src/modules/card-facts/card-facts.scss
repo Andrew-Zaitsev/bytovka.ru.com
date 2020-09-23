@@ -1,7 +1,41 @@
 .card-facts {
-  //width: 50px;
+  width: 100%;
+  max-width: 90px;
+  margin: 0 auto;
   //height: 50px;
   //font-family: 'Font Awesome';
-  color: red;
   font-size: 25px;
+
+  &__title-wrap {
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  &__title {
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: $grey;
+  }
+
+  &__icon-wrap {
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 5.625rem;
+    border-radius: 50%;
+    background-color: rgba($black, $aSecond);
+    color: $white;
+  }
+
+  &__counter {
+    text-align: center;
+    padding-top: 8px;
+    font-size: 2.952rem;
+    color: $yellow;
+  }
 }

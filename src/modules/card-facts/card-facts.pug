@@ -2,6 +2,10 @@
 //- tablet_mac
 //- smartphone
 //- computer
-mixin card-facts(options)
+mixin card-facts({title, icon, count})
   .card-facts
-    i.fa.fa-cogs
+    .card-facts__title-wrap
+      .card-facts__title= title
+    .card-facts__icon-wrap
+      i.card-facts__icon.fa(class = icon)
+    .card-facts__counter= count
