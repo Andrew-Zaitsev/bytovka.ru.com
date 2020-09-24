@@ -1,2 +1,14 @@
-mixin intro(options)
+include ../button-with-border/button-with-border.pug
+
+mixin intro({title, text, char})
   .intro
+    .intro__content
+      h1.intro__title
+        span.intro__static-string= title.staticString
+        each string in title.movingString
+          span.intro__moving-string= string
+        span.intro__blinking-char= char
+      p.intro__text= text
+      .intro__bottons
+        +button-with-border({})
+        +button-with-border({})

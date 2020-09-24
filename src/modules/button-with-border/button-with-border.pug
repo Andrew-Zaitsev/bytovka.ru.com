@@ -1,0 +1,9 @@
+mixin button-with-border({color, type, text, href})
+  - let buttonClassName = ["button-with-border"];
+
+  - if (color)
+      - buttonClassName.push("button-with-border_color_${color}");
+
+  button(class = buttonClassName, type = type)
+    - if (href)
+      a= text
