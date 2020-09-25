@@ -6,12 +6,15 @@
   align-items: center;
   //border: orange 1px solid;
 
-  &__content {}
+  &__content {
+    padding: 20px;
+  }
 
   &__title {
     text-transform: uppercase;
     font-size: 3.125rem;
     font-weight: bold;
+    padding-bottom: 90px;
   }
 
   &__static-string {
@@ -27,12 +30,26 @@
   }
 
   &__text {
+    padding-bottom: 32px;
     text-align: center;
     font-size: 1.5rem;
     color: $lightgrey;
 
     &::first-letter {
       text-transform: uppercase;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__button-with-border {
+
+    &:not(:first-child) {
+      margin-left: 20px;
     }
   }
 }

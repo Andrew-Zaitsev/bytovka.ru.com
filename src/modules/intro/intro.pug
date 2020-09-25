@@ -1,6 +1,6 @@
 include ../button-with-border/button-with-border.pug
 
-mixin intro({title, text, char})
+mixin intro({title, text, char, buttons})
   .intro
     .intro__content
       h1.intro__title
@@ -9,6 +9,7 @@ mixin intro({title, text, char})
           span.intro__moving-string= string
         span.intro__blinking-char= char
       p.intro__text= text
-      .intro__bottons
-        +button-with-border({})
-        +button-with-border({})
+      .intro__buttons
+        each button in buttons
+          .intro__button-with-border
+            +button-with-border(button)
