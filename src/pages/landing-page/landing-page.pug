@@ -17,14 +17,17 @@ block links
   link(href="./landing-page.scss" rel="stylesheet")
   link(href="../../assets/fonts/fontawesome/css/all.css" rel="stylesheet")
 
+block scripts
+  script(src="landing-page.js" type="module")
+
 block content
 
   .landing-page
   
     +parallax()
     +intro({
-      text: "just another business theme",
-      title: {staticString: "hello", movingString: ["enjoy your stay", "welcome to intro"]},
+      text: "Производство и продажа бытовок и хозблоков",
+      title: {staticString: "приветствуем ", changingString: ["нам можно доверять", "мы делаем жизнь легче"]},
       char: "|",
       buttons: [
         {color: "white", type: "button", href: "top", text: "button"},

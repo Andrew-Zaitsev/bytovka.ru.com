@@ -10,7 +10,7 @@
     padding: 20px;
   }
 
-  &__title {
+  &__text {
     text-transform: uppercase;
     font-size: 3.125rem;
     font-weight: bold;
@@ -21,15 +21,24 @@
     color: $white;
   }
 
-  &__moving-string {
+  &__changing-string-wrapper {
+    display: inline;
     color: $yellow;
+
+    &_visible {
+      display: inline;
+    }
+
+    &_hidden {
+      display: none;
+    }
   }
 
   &__blinking-char {
     color: $yellow;
   }
 
-  &__text {
+  &__title {
     padding-bottom: 32px;
     text-align: center;
     font-size: 1.5rem;

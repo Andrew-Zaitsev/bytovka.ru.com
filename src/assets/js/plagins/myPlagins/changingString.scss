@@ -1,0 +1,12 @@
+.changing-string {
+
+  &__blinking-char {
+
+    color: $yellow;
+    transition-duration: 0.25s;
+
+    &_transparent {
+      color: transparent;
+    }
+  }
+}

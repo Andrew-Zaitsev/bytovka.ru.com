@@ -7,7 +7,8 @@
     "test": "echo \\\"Error: no test specified\\\" && exit 1",
     "by": "parcel src/pages/landing-page/landing-page.pug -p 4000 --open --out-dir dist/bytovka.ru --cache-dir dist/cache",
     "clean": "rm -rf dist/bytovka.ru/*",
-    "cleanby": "npm run clean && npm run by"
+    "cleanby": "npm run clean && npm run by",
+    "build": "parcel build src/pages/landing-page/landing-page.pug --out-dir dist/build --cache-dir dist/cache --cache-dir dist/build-cache"
   },
   "repository": {
     "type": "git",
