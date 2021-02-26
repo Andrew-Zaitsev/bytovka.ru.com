@@ -211,11 +211,11 @@ parcelRequire = function (e, r, t, n) {
     "../../assets/js/functions.js": "gJM5",
     "../../assets/js/plagins/myPlagins/changingString.js": "TM6v"
   }],
-  "a11p": [function (require, module, exports) {
+  "Focm": [function (require, module, exports) {
     "use strict";
     require("../../modules/intro/intro.js");
   }, {
     "../../modules/intro/intro.js": "xKLi"
   }]
-}, {}, ["a11p"], null)
-//# sourceMappingURL=/landing-page.46e53925.js.map
+}, {}, ["Focm"], null)
+//# sourceMappingURL=/landing-page.042bd362.js.map
