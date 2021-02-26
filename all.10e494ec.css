@@ -6056,8 +6056,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url(/fa-brands-400.53b2d4ef.eot);
-  src: url(/fa-brands-400.53b2d4ef.eot?#iefix) format("embedded-opentype"), url(/fa-brands-400.135cf931.woff2) format("woff2"), url(/fa-brands-400.24e99467.woff) format("woff"), url(/fa-brands-400.9cad63cf.ttf) format("truetype"), url(/fa-brands-400.9ef4fac0.svg#fontawesome) format("svg")
+  src: url(fa-brands-400.53b2d4ef.eot);
+  src: url(fa-brands-400.53b2d4ef.eot?#iefix) format("embedded-opentype"), url(fa-brands-400.135cf931.woff2) format("woff2"), url(fa-brands-400.24e99467.woff) format("woff"), url(fa-brands-400.9cad63cf.ttf) format("truetype"), url(fa-brands-400.9ef4fac0.svg#fontawesome) format("svg")
 }
 
 .fab {
@@ -6069,8 +6069,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url(/fa-regular-400.64b5e1df.eot);
-  src: url(/fa-regular-400.64b5e1df.eot?#iefix) format("embedded-opentype"), url(/fa-regular-400.175c85c4.woff2) format("woff2"), url(/fa-regular-400.6640af22.woff) format("woff"), url(/fa-regular-400.1a832918.ttf) format("truetype"), url(/fa-regular-400.881c661c.svg#fontawesome) format("svg")
+  src: url(fa-regular-400.64b5e1df.eot);
+  src: url(fa-regular-400.64b5e1df.eot?#iefix) format("embedded-opentype"), url(fa-regular-400.175c85c4.woff2) format("woff2"), url(fa-regular-400.6640af22.woff) format("woff"), url(fa-regular-400.1a832918.ttf) format("truetype"), url(fa-regular-400.881c661c.svg#fontawesome) format("svg")
 }
 
 .fab,
@@ -6083,8 +6083,8 @@
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url(/fa-solid-900.e1a1f014.eot);
-  src: url(/fa-solid-900.e1a1f014.eot?#iefix) format("embedded-opentype"), url(/fa-solid-900.5e604779.woff2) format("woff2"), url(/fa-solid-900.5351c613.woff) format("woff"), url(/fa-solid-900.749555ef.ttf) format("truetype"), url(/fa-solid-900.30f4c43d.svg#fontawesome) format("svg")
+  src: url(fa-solid-900.e1a1f014.eot);
+  src: url(fa-solid-900.e1a1f014.eot?#iefix) format("embedded-opentype"), url(fa-solid-900.5e604779.woff2) format("woff2"), url(fa-solid-900.5351c613.woff) format("woff"), url(fa-solid-900.749555ef.ttf) format("truetype"), url(fa-solid-900.30f4c43d.svg#fontawesome) format("svg")
 }
 
 .fa,
@@ -6098,4 +6098,4 @@
   font-weight: 900
 }
 
-/*# sourceMappingURL=/all.9be84183.css.map */
+/*# sourceMappingURL=all.10e494ec.css.map */
